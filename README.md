@@ -1,3 +1,1 @@
-# NumPy- 
 
-fuoggvtb 
