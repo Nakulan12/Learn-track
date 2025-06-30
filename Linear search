@@ -1,0 +1,9 @@
+def linear_search_recursive(arr, target, index=0):
+    if index >= len(arr):
+        return -1
+    if arr[index] == target:
+        return index
+    return linear_search_recursive(arr, target, index + 1)
+
+arr = [5, 10, 15, 20]
+print("Index:", linear_search_recursive(arr, 15))  
