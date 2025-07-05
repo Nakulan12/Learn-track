@@ -31,5 +31,5 @@ function calculate(operator) {
       return;
   }
 
-  resultDisplay.textContent = `Result: ${result}`;
+`  resultDisplay.textContent = `Result: ${result}`;
 }
